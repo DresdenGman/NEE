@@ -21,11 +21,11 @@ ENV/
 *.swo
 *~
 
-# Data files (too large for GitHub)
-*.csv
-*.db
-*.txt
-!README.txt
+# Data files - keeping for research transparency
+# *.csv
+# *.db
+# *.txt
+# Note: Data files are included to show research data sources
 
 # Generated figures (will be regenerated)
 # Uncomment if you want to exclude figures:
