@@ -21,11 +21,13 @@ ENV/
 *.swo
 *~
 
-# Data files - keeping for research transparency
-# *.csv
-# *.db
-# *.txt
-# Note: Data files are included to show research data sources
+# Data files - excluding large files but keeping research data sources
+*.db
+# Allow specific research data files
+!twitter.csv
+!Beyond Good and Evil.txt
+!On the Origin of Species.txt
+!Pride and Prejudice.txt
 
 # Generated figures (will be regenerated)
 # Uncomment if you want to exclude figures:
